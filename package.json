@@ -1,0 +1,17 @@
+{
+  "name": "img.js",
+  "version": "0.0.1",
+  "description": "Image manipulation library for browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Petrov",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

@@ -5,9 +5,14 @@
   <title></title>
 </head>
 <body>
+  <div class="output"></div>
+
   <script src="../dist/img.js"></script>
   <script>
-    img('abcd');
+    img('./test.jpg')
+      .flipY()
+      .flipX()
+      .outputTo(document.querySelector('.output'));
   </script>
 </body>
 </html>
